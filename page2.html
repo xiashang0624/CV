@@ -49,21 +49,38 @@
         <div class="main-wrapper">
 
             <section class="section experience-section">
-                <h2 class="section-title">Numerical simulation for a capacitive deionization system</h2>
+                <h2 class="section-title">Numerical Simulation</h2>
                 <div class="item">	
-			<h4 style="font-size:29.5px">CDI modeling high current density</h4>
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Simulation of capacitive deionization</h3>
+                        </div><!--//upper-row-->
+                        <div class="company">University of Illinois at Urbana-Champaign 
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Capacitive deionization (CDI) is increasingly considered as an energy efficient technology for desalination of low salinity systems. Similar to a supercapacitor, the electrosorption process in traditional CDI systems relies on conductive porous electrodes that undergo electrical double layer (EDL) charging when an external electric power source is applied. </p>
+                        <p>A conventional CDI cell consists a pair of electrodes and a flow channel. Each electrode consists of activated carbon, polymeric binders, and voids.  Activated carbon particles can be further divided into three regions: a solid carbon backbone that conducts electricity, a macropore region filled with electroneutral solution, and a micropore region where electrosorption takes place.  The black dashed line represents the interface between macropores and micropores, and the yellow dashed lines represents the Stern-layer interfaces.  The immobile surface charges can be treated as fixed charged groups that reside inside the micropores.</p>
+ 						<img class="profile" src="assets/images/CDI_schematic.png" width="580" height="420" alt="" />
+						<p>A fraction of externally applied charge is utilized for co-ion repulsion, leakage current, desalination residue in flow-channel, and desalination residue within electrode pores.  The fraction of salt removal is based on the salinity difference between the influent and effluent flow, which is typically referred to as the charge efficiency. </p>
+                        <p>The two simulation videos show the system behavior within a charge/discharge cycle during cell cycling of constant current.</p>
+                    </div><!--//details-->
+
+			<h4 style="font-size:20px">CDI modeling high current density</h2>
 	 		<video width="600" height="500" controls>
   				<source src="assets/Test_1200mV_30mM_18A_6e-1mLmin_2406s_7cycles_9cm_09252017_mac_rate_20.mp4" type="video/mp4">
 			</video> 
             	</div><!--//item-->	
 		    
 		<div class="item">	
-			<h4 style="font-size:29.5px">CDI modeling low current density</h4>
+			<h4 style="font-size:20px">CDI modeling low current density</h4>
 	 		<video width="600" height="500" controls>
   				<source src="assets/Test_1200mV_30mM_3A_1e-1mLmin_21792s_7cycles_9cm_09252017_mac_rate_40.mp4" type="video/mp4">
 			</video> 
             	</div><!--//item-->    
-		    
+				
+		    <p>The details of the project can be found in this paper: <i>X. Shang, R.D. Cusick, K.C. Smith, A combined modeling and experimental study assessing the impact of flow mode on charge and energy efficiency in capacitive deionization, submitted to the Journal of Electrochemical Society, (09/2017) </i></p>
+			<p>The source code can be found in <a href="https://github.com/xiashang0624/electrochemical_simulation">Github</a> and Nanohub. </p>
+			<p>This work was funded by the US National Science Foundation Award No. 1605290 entitled “SusChEM: Increasing Access to Sustainable Freshwater Resources with Membrane Capacitive Deionization.” and the Joint Center for Energy Storage Research, an Energy Innovation Hub funded by the U.S. Department of Energy, Office of Science, Basic Energy Sciences. </p>
 	</section><!--//section-->
         </div><!--//main-body-->
     </div>
